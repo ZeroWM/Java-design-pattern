@@ -1,6 +1,6 @@
-package create.chapter1;
+package create.chapter1.strategy;
 
-public class RedDuck extends  Duck{
+public class RubberDuck extends Duck{
 
   @Override
   protected void swim() {
@@ -14,7 +14,7 @@ public class RedDuck extends  Duck{
 
   @Override
   protected void performDuck() {
-    System.out.println("red duck");
+    System.out.println("rubber duck");
   }
 
   @Override
@@ -24,11 +24,11 @@ public class RedDuck extends  Duck{
 
   @Override
   protected void setFlyBehavior() {
-    this.flyBehavior = new FlyWithWings();
+    this.flyBehavior = new FlyNoWay();
   }
 
   @Override
   protected void setQuackBehavior() {
-    this.quackBehavior = new Quack();
+    this.quackBehavior = new Squeak();
   }
 }

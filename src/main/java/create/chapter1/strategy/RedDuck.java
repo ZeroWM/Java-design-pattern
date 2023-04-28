@@ -1,9 +1,10 @@
-package create.chapter1;
+package create.chapter1.strategy;
 
-public class DecoyDuck extends Duck {
+public class RedDuck extends  Duck{
+
   @Override
   protected void swim() {
-    System.out.println("不会游泳");
+    System.out.println("游泳");
   }
 
   @Override
@@ -13,7 +14,7 @@ public class DecoyDuck extends Duck {
 
   @Override
   protected void performDuck() {
-    System.out.println("decoy duck");
+    System.out.println("red duck");
   }
 
   @Override
@@ -23,11 +24,11 @@ public class DecoyDuck extends Duck {
 
   @Override
   protected void setFlyBehavior() {
-    this.flyBehavior = new FlyNoWay();
+    this.flyBehavior = new FlyWithWings();
   }
 
   @Override
   protected void setQuackBehavior() {
-    this.quackBehavior = new MuteQuack();
+    this.quackBehavior = new Quack();
   }
 }

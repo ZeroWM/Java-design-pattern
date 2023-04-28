@@ -1,4 +1,4 @@
-package create.chapter1;
+package create.chapter1.strategy;
 
 public class test {
   public static void main(String[] args) {
