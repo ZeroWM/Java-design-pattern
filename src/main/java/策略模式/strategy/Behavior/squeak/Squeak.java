@@ -1,4 +1,4 @@
-package create.chapter1.strategy.Behavior.squeak;
+package 策略模式.strategy.Behavior.squeak;
 
 public class Squeak  implements QuackBehavior{
   @Override

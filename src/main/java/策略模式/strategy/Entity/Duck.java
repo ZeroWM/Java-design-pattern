@@ -1,7 +1,7 @@
-package create.chapter1.strategy.Entity;
+package 策略模式.strategy.Entity;
 
-import create.chapter1.strategy.Behavior.fly.FlyBehavior;
-import create.chapter1.strategy.Behavior.squeak.QuackBehavior;
+import 策略模式.strategy.Behavior.fly.FlyBehavior;
+import 策略模式.strategy.Behavior.squeak.QuackBehavior;
 
 public abstract class Duck {
   FlyBehavior flyBehavior;

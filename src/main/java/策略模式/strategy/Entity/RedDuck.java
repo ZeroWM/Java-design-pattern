@@ -1,13 +1,12 @@
-package create.chapter1.strategy.Entity;
+package 策略模式.strategy.Entity;
 
-import create.chapter1.strategy.Behavior.fly.FlyBehavior;
-import create.chapter1.strategy.Behavior.fly.FlyWithWings;
-import create.chapter1.strategy.Behavior.squeak.Quack;
-import create.chapter1.strategy.Behavior.squeak.QuackBehavior;
+import 策略模式.strategy.Behavior.fly.FlyBehavior;
+import 策略模式.strategy.Behavior.fly.FlyWithWings;
+import 策略模式.strategy.Behavior.squeak.Quack;
+import 策略模式.strategy.Behavior.squeak.QuackBehavior;
 
-public class GreenDuck extends Duck {
-
-  public GreenDuck() {
+public class RedDuck extends Duck {
+  public RedDuck() {
     this.flyBehavior = new FlyWithWings();
     this.quackBehavior = new Quack();
   }
@@ -24,7 +23,7 @@ public class GreenDuck extends Duck {
 
   @Override
   public void performDuck() {
-    System.out.println("green duck");
+    System.out.println("red duck");
   }
 
   @Override

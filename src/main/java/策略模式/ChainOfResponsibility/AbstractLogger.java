@@ -1,4 +1,4 @@
-package behavior.ChainOfResponsibility;
+package 策略模式.ChainOfResponsibility;
 
 /**
  * Created by wm on 2018/11/6.

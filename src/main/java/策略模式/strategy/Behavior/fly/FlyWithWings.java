@@ -1,4 +1,4 @@
-package create.chapter1.strategy.Behavior.fly;
+package 策略模式.strategy.Behavior.fly;
 
 public class FlyWithWings  implements FlyBehavior{
   @Override

@@ -1,11 +1,11 @@
-package create.chapter1.strategy;
+package 策略模式.strategy;
 
-import create.chapter1.strategy.Behavior.fly.FlyWithWings;
-import create.chapter1.strategy.Entity.DecoyDuck;
-import create.chapter1.strategy.Entity.Duck;
-import create.chapter1.strategy.Entity.GreenDuck;
-import create.chapter1.strategy.Entity.RedDuck;
-import create.chapter1.strategy.Entity.RubberDuck;
+import 策略模式.strategy.Behavior.fly.FlyWithWings;
+import 策略模式.strategy.Entity.DecoyDuck;
+import 策略模式.strategy.Entity.Duck;
+import 策略模式.strategy.Entity.GreenDuck;
+import 策略模式.strategy.Entity.RedDuck;
+import 策略模式.strategy.Entity.RubberDuck;
 
 public class test {
   public static void main(String[] args) {

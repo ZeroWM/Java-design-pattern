@@ -1,9 +1,9 @@
-package create.chapter1.strategy.Entity;
+package 策略模式.strategy.Entity;
 
-import create.chapter1.strategy.Behavior.fly.FlyBehavior;
-import create.chapter1.strategy.Behavior.fly.FlyNoWay;
-import create.chapter1.strategy.Behavior.squeak.MuteQuack;
-import create.chapter1.strategy.Behavior.squeak.QuackBehavior;
+import 策略模式.strategy.Behavior.fly.FlyBehavior;
+import 策略模式.strategy.Behavior.fly.FlyNoWay;
+import 策略模式.strategy.Behavior.squeak.MuteQuack;
+import 策略模式.strategy.Behavior.squeak.QuackBehavior;
 
 public class DecoyDuck extends Duck {
 

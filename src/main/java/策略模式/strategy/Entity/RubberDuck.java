@@ -1,14 +1,14 @@
-package create.chapter1.strategy.Entity;
+package 策略模式.strategy.Entity;
 
-import create.chapter1.strategy.Behavior.fly.FlyBehavior;
-import create.chapter1.strategy.Behavior.fly.FlyWithWings;
-import create.chapter1.strategy.Behavior.squeak.Quack;
-import create.chapter1.strategy.Behavior.squeak.QuackBehavior;
+import 策略模式.strategy.Behavior.fly.FlyBehavior;
+import 策略模式.strategy.Behavior.fly.FlyNoWay;
+import 策略模式.strategy.Behavior.squeak.QuackBehavior;
+import 策略模式.strategy.Behavior.squeak.Squeak;
 
-public class RedDuck extends Duck {
-  public RedDuck() {
-    this.flyBehavior = new FlyWithWings();
-    this.quackBehavior = new Quack();
+public class RubberDuck extends Duck {
+  public RubberDuck() {
+    this.flyBehavior = new FlyNoWay();
+    this.quackBehavior = new Squeak();
   }
 
   @Override
@@ -23,7 +23,7 @@ public class RedDuck extends Duck {
 
   @Override
   public void performDuck() {
-    System.out.println("red duck");
+    System.out.println("rubber duck");
   }
 
   @Override
