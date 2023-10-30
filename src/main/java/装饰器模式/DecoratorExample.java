@@ -1,4 +1,4 @@
-package 装饰器;
+package 装饰器模式;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
